@@ -3,7 +3,7 @@
     <head>
         <title>Sensor manager</title>
         <link rel="shortcut icon" href="/favicon" />
-        <link rel="stylesheet" type="text/css" href="./templates/button.css">
+        <link rel="stylesheet" type="text/css" href="button.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
 			.On {
@@ -45,26 +45,26 @@
 		<div class="container">
 			<h2 align=center style="color: rgb(33, 88, 88)">Relay #1</h1>
 			<div>
-				<button class="%s" onclick="window.location.href='./templates/dev_manager.html?dev1'; return false;">%s</button>
+				<button class="Off" onclick="window.location.href='dev_manager.html?dev1'; return false;">Off</button>
 			</div>	
 			<div>
-				<img src="%s" style="width:160px">
+				<img src="relay_off.jpg" style="width:160px">
 			</div>
 		</div>
 				
 		<div class="container">
 			<h2 align=center style="color: rgb(33, 88, 88)">Relay #2</h1>
 			<div>
-				<button class="%s" onclick="window.location.href='./templates/dev_manager.html?dev2'; return false;">%s</button>
+				<button class="On" onclick="window.location.href='dev_manager.html?dev2'; return false;">On</button>
 			</div>	
 			<div>
-				<img src="%s" style="width:160px">
+				<img src="relay_on.jpg" style="width:160px">
 			</div>
 		</div>
         <br><br><br>
 		
         <form align=center>
-            <button onclick="window.location.href='index.html'; return false;">Main menu</button>
+            <button onclick="window.location.href='/'; return false;">Main menu</button>
         </form>
 	</body>
 </html>
