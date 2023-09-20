@@ -27,18 +27,18 @@
     </label>
 
     <ul class="menubox">
-			<li><a class="menu-item" href="sens_status.html">Sensor Status</a></li>
-			<li><a class="menu-item" href="dev_manager.html">Devices Management</a></li>
-			<li><a class="menu-item" href="send_text.html">Send Text</a></li>
+			<li><a class="menu-item" href="./templates/sens_status.html">Sensor Status</a></li>
+			<li><a class="menu-item" href="./templates/dev_manager.html">Devices Management</a></li>
+			<li><a class="menu-item" href="./templates/send_text.html">Send Text</a></li>
 			<li><a class="menu-item" onclick="url()">Send Time</a></li>
-			<li><a class="menu-item" href="settings.html">Settings</a></li>
-			<li><a class="menu-item" href="logout.html">Exit</a></li>
+			<li><a class="menu-item" href="./templates/settings.html">Settings</a></li>
+			<li><a class="menu-item" href="./templates/logout.html">Exit</a></li>
     </ul>
   </div>
   		<script>
 	      function url(){
 			let now = new Date();
-			window.open('send_time.html?'+now.getHours()+':'+now.getMinutes(), '_self')
+			window.open('./templates/send_time.html?'+now.getHours()+':'+now.getMinutes(), '_self')
 			}
 		</script>
 </body>
